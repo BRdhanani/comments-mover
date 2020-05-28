@@ -1,0 +1,15 @@
+.wrap select{display: block; margin-top: 15px; margin-bottom: 25px; padding: 4px 30px 4px 15px;}
+.wrap select:focus{border-color: #7e8993; box-shadow: none; color: #32373c;}
+.wrap form select optgroup{color: #000;}
+.wrap input[type="submit"]{background-color: #5bc0de; border: 0px; color: #fff; cursor: pointer; padding: 10px 15px; border-radius: 4px; -webkit-border-radius: 4px;}
+.wrap input[type="submit"]:hover { background-color: #31b0d5; border-color: #269abc; }
+
+#the-list-x{border: 1px solid #ccc; border-collapse: collapse; margin-bottom: 10px;}
+#the-list-x thead tr th { background-color: #5bc0de; padding: 10px 15px; color: #fff; font-size: 16px; font-weight: 400; text-align: left;}
+#the-list-x thead tr th.column1{width: 8%;}
+#the-list-x thead tr th.column2{width: 20%;}
+#the-list-x thead tr th.column3{width: 55%;}
+#the-list-x thead tr th.column4{width: 17%;}
+
+#the-list-x tbody tr td{padding: 8px 15px; font-size: 14px;}
+#the-list-x tbody tr:nth-child(even){background-color: #dddddd;}
